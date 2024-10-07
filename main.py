@@ -1,7 +1,5 @@
-n = input("Введите восьмеричное число (8 разрядов): ")
-
-s = 0
-for digit in n:
-    s += int(digit)
-
-print("Сумма цифр числа:", s)
+n = input("введите число из 8 разядов: ")
+a = 0
+for c in n:
+    a += int(c)
+print(a)
